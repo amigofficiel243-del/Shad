@@ -1,0 +1,161 @@
+style.css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #111;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+      
+}
+
+.logo {
+    font-weight: bold;
+    color: #f7b733;
+}
+
+.hero {
+    background-image: url(Images/IMAGE33.jpg);
+    height: 520px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+}
+
+.hero-text h2 {
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+.hero button {
+    background: #D4AF37;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+.services {
+    display: flex;
+    padding: 50px;
+    background: #222;
+    color: rgb(255, 255, 255);
+}
+
+.services-left {
+    width: 40%;
+}
+
+.services-grid {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+.card {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 40px;
+    padding-block: 25px;
+    gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+.highlight {
+    background: #D4AF37;
+    color: rgb(255, 255, 255);
+}
+
+.highlight button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.image-section {
+
+    background-image: url(Images/IMAGE2.jpeg);
+    height: 400px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cta {
+    background: #D4AF37;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    box-shadow: 10px; 
+}
+
+.cta button {
+    margin-top: 10px;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    color: #000000;
+}
+
+.newsletter {
+    display: flex;
+    padding: 40px;
+    gap: 20px;
+    
+}
+
+.news-box {
+    flex: 1;
+    background: #eee;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.news-box.dark {
+    background: #111;
+    color: white;
+}
+
+
+.news-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
